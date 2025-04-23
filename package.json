@@ -1,14 +1,14 @@
 {
-  "homepage": "https://Manmay Rawal.github.io/Code",
+  "homepage": "https://Manmay-Rawal.github.io/Assignment-acuanex./",
   "name": "code",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "react-scripts build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
